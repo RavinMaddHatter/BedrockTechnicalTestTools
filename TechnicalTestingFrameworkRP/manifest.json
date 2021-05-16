@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Technical Testing Framework",
+		"description": "A pack created by §RavinMaddHatter to help test some of the technical aspects of minecraft bedrock edition.",
+		"uuid": "e1de035c-b30c-47b1-bb52-d5880cec4ecc",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "d711b43a-b8c2-4d56-8d09-b60732c0169b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

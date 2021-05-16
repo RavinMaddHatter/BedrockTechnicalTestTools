@@ -1,0 +1,24 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "timers:fifteen_min",
+			"materials": {
+				"default": "agent"
+			},
+			"textures": {
+				"default": "textures/entity/agent"
+			},
+			"geometry": {
+				"default": "geometry.agent"
+			},
+			"render_controllers": [
+				"controller.render.agent"
+			],
+			"spawn_egg": {
+				"texture": "fifteen"
+			}
+		}
+	}
+}

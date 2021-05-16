@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "bridgeRP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+	"fifteen":{
+         "textures" : "textures/fifteen"
+      },
+	"ten":{
+         "textures" : "textures/ten"
+      },
+	"five":{
+         "textures" : "textures/five"
+      },
+	"hour":{
+         "textures" : "textures/sixty"
+      }
+  }
+}

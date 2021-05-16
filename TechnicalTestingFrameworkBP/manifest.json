@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Technical Testing Framework",
+		"description": "A pack created by §RavinMaddHatter to help test some of the technical aspects of minecraft bedrock edition.",
+		"uuid": "2953c292-8007-4985-b5dc-cab2f8439e25",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "815e6e29-062e-41af-a090-7359f95295f2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		
+        {
+            "description": "test scripts",
+            "type": "javascript",
+            "uuid": "a0e74e21-5e2b-40bf-854a-97fe0db8c04a",
+            "version": [0, 0, 1],
+            "entry": "scripts/test.js"
+        }
+	],
+	"dependencies": [
+
+		{
+		  // Minecraft native module - needed to use the "Minecraft" module
+		  "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+		  "version": [ 0, 1, 0 ]
+		},
+		{
+		  // GameTest native module - needed to use the "GameTest" module
+		  "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+		  "version": [ 0, 1, 0 ]
+		}
+		]
+}
